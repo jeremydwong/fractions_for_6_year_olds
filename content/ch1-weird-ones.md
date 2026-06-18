@@ -1,0 +1,34 @@
+# intro
+
+Here's a fun secret, Emery: **you have been writing fractions your whole life!** You just didn't know it.
+
+When you write the number `5`, what does it really mean? It means **5 whole things**. Five whole cookies. Five groups, and each group is **1 whole**.
+
+So `5` is really *5 groups of 1*. And there is a fraction way to write exactly that:
+
+- `5` is the same as `5/1`
+- `3` is the same as `3/1`
+- `1` is the same as `1/1`
+
+See the bottom number? It's a **1**. That means "cut it into 1 piece" — which is just... the whole thing! You didn't cut it at all. Each piece is one whole cookie.
+
+So a plain number like `4` is a **weirdly-written fraction**. It's `4/1`: four pieces, where each piece is a whole. We just got lazy and stopped writing the little `/1`, because we knew it was there.
+
+:::callout color=cyan
+Press the buttons below to pick a number. Watch it turn into its secret fraction form — the same amount, just wearing a fraction costume!
+:::end
+
+# outro
+
+This is a big, big idea, so let's say it slowly: **every number is already a fraction.** The bottom number just tells you how big each piece is. A bottom of `1` means the pieces are whole things.
+
+Why does this matter? Because soon we are going to **add** fractions. And the trick to adding is making everything the *same kind*. Knowing that `5` is secretly `5/1` is our first clue!
+
+:::takehome color=gold
+:::major
+- A plain number like `5` is secretly the fraction `5/1`.
+- The bottom number tells you the **size of each piece**. A bottom of `1` means each piece is a whole.
+- So you've been using fractions all along — `/1` ones!
+:::minor
+- We usually don't write the `/1` because we're lazy (and that's okay!).
+:::end

@@ -657,55 +657,42 @@ const chapterData = [
 
 export default function FractionExplorer() {
   const [chapter, setChapter] = useState(0);
+  const [light, setLight] = useState(false);
   const ch = chapterData[chapter];
   const Comp = ch.component;
 
   useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }); }, [chapter]);
+  useEffect(() => { document.body.classList.toggle("light-mode", light); }, [light]);
 
   return (
-    <div style={{
-      minHeight: "100vh", background: COLORS.bg, color: COLORS.text,
-      fontFamily: "'Quicksand', 'Segoe UI', system-ui, sans-serif",
-    }}>
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Baloo+2:wght@500;700&display=swap');
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        button:hover { filter: brightness(1.05); }
-        ::selection { background: ${COLORS.cyan}33; }
-      `}</style>
+    <div style={{ minHeight: "100vh", background: COLORS.bg, color: COLORS.text }}>
+      <style>{`button:hover { filter: brightness(1.08); }`}</style>
 
-      {/* Header */}
+      {/* Header — .docs-header style from styles/reference/custom.css */}
       <header style={{
-        padding: "22px 24px 18px", borderBottom: `1px solid ${COLORS.border}`,
-        background: COLORS.surface,
+        padding: "26px 24px 20px", borderBottom: `1px solid ${COLORS.border}`,
+        background: COLORS.surface, display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap",
       }}>
-        <h1 style={{
-          fontSize: 26, fontWeight: 700, letterSpacing: -0.5, fontFamily: fonts.mono,
-          background: `linear-gradient(135deg, ${COLORS.magenta}, ${COLORS.gold})`,
-          WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-        }}>
-          🍕 Fractions for Emery
-        </h1>
-        <div style={{ fontSize: 14, color: COLORS.muted, marginTop: 4 }}>
-          cutting, sharing, and adding — one slice at a time
+        <div style={{ flex: "1 1 auto" }}>
+          <h1 className="docs-header" style={{ color: COLORS.text, fontSize: "2rem", margin: 0 }}>
+            🍕 Fractions <span style={{ color: COLORS.gold }}>for Emery</span>
+          </h1>
+          <div style={{ fontSize: 13.5, color: COLORS.muted, marginTop: 4 }}>
+            cutting, sharing, and adding — one slice at a time
+          </div>
+        </div>
+        {/* light/dark switch — the custom.css toggle */}
+        <div className="toggle-container">
+          <input id="theme-toggle" type="checkbox" checked={light} onChange={(e) => setLight(e.target.checked)} />
+          <label htmlFor="theme-toggle" aria-label="Toggle light mode" />
         </div>
       </header>
 
-      {/* Page nav */}
-      <nav style={{
-        display: "flex", gap: 0, overflowX: "auto", borderBottom: `1px solid ${COLORS.border}`,
-        background: COLORS.surface,
-      }}>
+      {/* Page nav — .navbar style from styles/reference/custom.css */}
+      <nav className="site-navbar">
         {chapterData.map((c, i) => (
-          <button key={i} onClick={() => setChapter(i)}
-            style={{
-              padding: "11px 15px", fontSize: 13, background: "transparent",
-              border: "none", borderBottom: `3px solid ${i === chapter ? c.color : "transparent"}`,
-              color: i === chapter ? c.color : COLORS.muted,
-              cursor: "pointer", whiteSpace: "nowrap", fontFamily: "inherit",
-              fontWeight: i === chapter ? 700 : 500,
-              transition: "all 0.15s",
-            }}>
+          <button key={i} className={i === chapter ? "active" : ""} onClick={() => setChapter(i)}
+            style={{ borderBottom: `3px solid ${i === chapter ? "#33C3F0" : "transparent"}` }}>
             {c.num}. {c.title}
           </button>
         ))}

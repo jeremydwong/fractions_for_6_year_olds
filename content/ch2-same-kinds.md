@@ -1,20 +1,23 @@
-# intro
+# intro: 
 
-Okay Emery, here is the **most important rule about adding**. Are you ready? It's a rule you *already know*, even with big numbers.
+Yo. Here's another secret. you really only need to learn how to add, subtract, multiply and divide fractions. That'll make you a functioning employee at any LEGO store. Probably won't be enough for you to use the weird fractions in Yosemite climbing grades or software releases, both of which look like fractions but aren't... 
+
+Anyway, Yo! here is the **most important rule about adding**. Are you ready? It's a rule you *already know*, even with big numbers:
 
 **You can only add things that are the same kind.**
 
-If I have 2 apples and you give me 3 apples, that's easy: **5 apples**. Same kind! But if I have 2 apples and 3 *bananas*... I can't say "5 apple-bananas." They're different! I'd have to keep them separate: 2 apples *and* 3 bananas.
+If I have 2 apples and you give me 3 apples, that's easy: **5 apples**. Same kind! But if I have 2 apples and 3 *bananas*... I can't say "5 apple-bananas." They're different! I'd have to keep them separate: 2 apples *and* 3 bananas. (Okay sure, you could say "i have 5 fruits". But then you've lost information! Wouldn't work with pure numbers, right? "3 tens plus 2 ones. i have 5...numbers!")
 
-Guess what — you do this with *every* number, even when you don't notice. When you add `23 + 45`, you don't just smush all the digits together. You line them up:
+SO, you already know how to group like things together for other numbers, even when you don't notice. You line up the different groups!:
 
 - **ones** go with **ones**: 3 + 5 = 8 ones
 - **tens** go with **tens**: 2 + 4 = 6 tens
 
-You add tens to tens and ones to ones. You'd *never* add a ten to a one and call it the same thing. **Same kinds only!**
 
 :::callout color=green
-Fractions work the **exact same way**. The bottom number tells you the *kind*. Halves are one kind. Quarters are another kind. You can only add pieces that are the same kind — the same size!
+Fractions work in the **same way**, they just make the type of thing explicit. The bottom number tells you the *type of piece*. Halves (twoths!) are one kind. Quarters (fourths!) are another kind, fifths (like Rocky's limbs!) are another. Honestly, "hundredths" are probably the most common kind of fraction (after "halves" maybe) and we have a special way of short-forming those fractions: the word "percent" is another cute name for "hundredths". 
+
+So the key: you can only add pieces that are the same kind — the same size!
 :::end
 
 Try it below. If the two pieces are the **same kind** (same bottom number), they snap together easily and you just add the tops. If they're **different kinds**, look what happens — the pieces don't match, and it's a muddle!

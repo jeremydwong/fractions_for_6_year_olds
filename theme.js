@@ -1,37 +1,50 @@
-// Theme configuration — edit this file to customize the look and feel.
+// Theme tokens — derived from the reference stylesheets in styles/reference/
+// (normalize.css, skeleton.css, custom.css):
+//
+//   bg      #242424            custom.css  `html { background-color: #242424 }`
+//   surface #28292c            custom.css  `:root { --dark: #28292c }`
+//   text    #cccccc            custom.css  `body { color: #cccccc }`
+//   muted   #999999            custom.css  `.heading-font-size { color: #999 }`
+//   cyan    #33C3F0            skeleton.css `.button-primary` / custom.css `.navbar-link.active`
+//   green   rgb(27,129,112)    custom.css  `:root { --link }`
+//   gold    #ffc107            custom.css  toggle checked knob gradient end
+//   slice   #ffc107            same gold — the coloured-in pizza/chocolate pieces
+//
+// The remaining accents (magenta/orange/purple) aren't in the reference files;
+// they're chosen to sit alongside that palette on the dark background.
 //
 // NOTE: index.html has a matching body background to prevent flash-of-white
 // on load. If you change colors.bg, update the <style> in index.html too.
 
 export const colors = {
   // Backgrounds & surfaces
-  bg:           "#fdf8f0",
-  surface:      "#f6eede",
-  surfaceLight: "#fff",
-  border:       "#e6dcc8",
+  bg:           "#242424",
+  surface:      "#28292c",
+  surfaceLight: "#2f3034",
+  border:       "#3d3e42",
 
   // Text
-  text:         "#352f28",
-  muted:        "#8a8174",
+  text:         "#cccccc",
+  muted:        "#999999",
 
-  // Accents — bright and friendly
-  cyan:         "#1f8fb3",
-  magenta:      "#e0537a",
-  gold:         "#d99100",
-  green:        "#3aa364",
-  orange:       "#e8762b",
-  purple:       "#8a5cd1",
+  // Accents
+  cyan:         "#33C3F0",
+  magenta:      "#e0568a",
+  gold:         "#ffc107",
+  green:        "#1b8170",
+  orange:       "#e8944a",
+  purple:       "#9d8bd6",
 
   // Slice / pie palette (used for cutting up wholes)
-  slice:        "#f6b545",
+  slice:        "#ffc107",
 
   // Grid overlay (used in SVG plots)
-  grid:         "rgba(120, 110, 90, 0.10)",
-  gridAxis:     "rgba(80, 75, 60, 0.25)",
+  grid:         "rgba(200, 205, 215, 0.08)",
+  gridAxis:     "rgba(210, 215, 225, 0.28)",
 };
 
 export const fonts = {
-  mono: "'Baloo 2', 'Gill Sans', Calibri, sans-serif",
+  mono: "'IBM Plex Mono', monospace, monospace",
 };
 
 // Maps color names used in :::callout, :::takehome directives to hex values.

@@ -1,10 +1,12 @@
-# intro
+# intro: The magic trick for adding fractions
 
-Time for the magic trick, Emery! This is my favourite part.
+It's time for the magic trick, and this is my favourite part.
 
-We have a problem: sometimes pieces are different kinds, and we can't add them. We need a way to **change the kind** of a fraction... *without changing how much it actually is.*
+Now of course I know that you can add some fractions. you can add one half plus one quarter, I've heard you do it. and what you're doing is that you know one half is really two quarters, so you're helped by A) seeing the half and the quarter in your head (those are visualizable) and B) being able to convert a half into two smaller parts. But what we're gonna figure out now is a general way of converting any set of parts, not just halves and quarters, but it's an idea that works for both!
 
-Here's the secret. Remember how `5` was secretly `5/1`? Well, there's another weird way to write a number. Look:
+The trick is that you multiply your fractions by a **weirdly written one**. 
+
+First we need to know how to multiply fractions, and this is a funny thing about fractions. Multiplying is just easier than adding, there's no need to convert everything to the same kind first. I'd like to use the weird ones trick from page 1 to show you that you ALREADY know how to multiply fractions...remember 5 is really "5 oneths"? so "5 times 4" is really "5/1 x 4/1". What do we know that bottom number is? ... It's a 1! so 
 
 - `2/2` means "cut into 2 pieces, take 2 of them." You took **all** the pieces! That's **1 whole**.
 - `3/3` means "cut into 3, take all 3." Again — that's **1 whole**!

@@ -72,6 +72,7 @@ a:hover { color: var(--link-hover); }
   align-items: center;
 }
 .site-navbar button {
+  margin: 0;                   /* cancel Skeleton's `button { margin-bottom: 1rem }` so the label centers vertically */
   text-transform: uppercase;   /* .navbar-link */
   font-size: 11px;
   font-weight: 600;
@@ -168,5 +169,5 @@ a:hover { color: var(--link-hover); }
  *     break sticky; a filtered sibling doesn't).
  * The title lives inside .app-body, so it flips to light along with the content.
  * ------------------------------------------------------------------------- */
-body.light-mode { background-color: #ffffff; }
+html:has(body.light-mode) { background-color: #ffffff; }
 body.light-mode .app-body { filter: invert(1) hue-rotate(180deg); }

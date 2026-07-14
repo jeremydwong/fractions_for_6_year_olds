@@ -1,6 +1,6 @@
 # intro
 
-Yo: Here's a fun secret. **You have been writing fractions your whole life!** You just didn't know it.
+Here's a fun secret, Emery: **you have been writing fractions your whole life!** You just didn't know it.
 
 When you write the number `5`, what does it really mean? It means **5 whole things**. Five whole cookies. Five groups, and each group is **1 whole**.
 
@@ -20,7 +20,7 @@ Press the buttons below to pick a number. Watch it turn into its secret fraction
 
 # outro
 
-This is a big, idea, so let's say it slowly: **every number is already a fraction.** The bottom number just tells you how big each piece is. A bottom of `1` means the pieces are whole things.
+This is a big, big idea, so let's say it slowly: **every number is already a fraction.** The bottom number just tells you how big each piece is. A bottom of `1` means the pieces are whole things.
 
 Why does this matter? Because soon we are going to **add** fractions. And the trick to adding is making everything the *same kind*. Knowing that `5` is secretly `5/1` is our first clue!
 

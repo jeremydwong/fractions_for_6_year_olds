@@ -665,38 +665,39 @@ export default function FractionExplorer() {
   useEffect(() => { document.body.classList.toggle("light-mode", light); }, [light]);
 
   return (
-    <div style={{ minHeight: "100vh", background: COLORS.bg, color: COLORS.text }}>
+    <div style={{ minHeight: "100vh", color: COLORS.text }}>
       <style>{`button:hover { filter: brightness(1.08); }`}</style>
 
-      {/* Header — .docs-header style from styles/reference/custom.css */}
-      <header style={{
-        padding: "26px 24px 20px", borderBottom: `1px solid ${COLORS.border}`,
-        background: COLORS.surface, display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap",
-      }}>
-        <div style={{ flex: "1 1 auto" }}>
+      {/* Sticky nav on top, toggle pinned at its right end — mirrors the fixed
+          navbar on jeremydwong.github.io. The title sits BELOW it, in .app-body. */}
+      <nav className="site-navbar">
+        <div className="nav-scroll">
+          {chapterData.map((c, i) => (
+            <button key={i} className={i === chapter ? "active" : ""} onClick={() => setChapter(i)}
+              style={{ borderBottom: `3px solid ${i === chapter ? "#33C3F0" : "transparent"}` }}>
+              {c.num}. {c.title}
+            </button>
+          ))}
+        </div>
+        <div className="toggle-container">
+          <input id="theme-toggle" type="checkbox" checked={light} onChange={(e) => setLight(e.target.checked)} />
+          <label htmlFor="theme-toggle" aria-label="Toggle light mode" />
+        </div>
+      </nav>
+
+      {/* Content region — the only part that flips in light mode (keeps the
+          blue navbar + yellow toggle true, and keeps the navbar sticky). */}
+      <div className="app-body">
+        <header style={{
+          padding: "26px 24px 20px", borderBottom: `1px solid ${COLORS.border}`, background: COLORS.surface,
+        }}>
           <h1 className="docs-header" style={{ color: COLORS.text, fontSize: "2rem", margin: 0 }}>
             🍕 Fractions <span style={{ color: COLORS.gold }}>for Emery</span>
           </h1>
           <div style={{ fontSize: 13.5, color: COLORS.muted, marginTop: 4 }}>
             cutting, sharing, and adding — one slice at a time
           </div>
-        </div>
-        {/* light/dark switch — the custom.css toggle */}
-        <div className="toggle-container">
-          <input id="theme-toggle" type="checkbox" checked={light} onChange={(e) => setLight(e.target.checked)} />
-          <label htmlFor="theme-toggle" aria-label="Toggle light mode" />
-        </div>
-      </header>
-
-      {/* Page nav — .navbar style from styles/reference/custom.css */}
-      <nav className="site-navbar">
-        {chapterData.map((c, i) => (
-          <button key={i} className={i === chapter ? "active" : ""} onClick={() => setChapter(i)}
-            style={{ borderBottom: `3px solid ${i === chapter ? "#33C3F0" : "transparent"}` }}>
-            {c.num}. {c.title}
-          </button>
-        ))}
-      </nav>
+        </header>
 
       {/* Page content */}
       <main style={{ maxWidth: 780, margin: "0 auto", padding: "24px 20px 48px" }}>
@@ -725,6 +726,7 @@ export default function FractionExplorer() {
           </button>
         </div>
       </main>
+      </div>
     </div>
   );
 }

@@ -16,6 +16,17 @@ Inspired by, and built in the same style as,
 4. **Now We Can Add!** — put it together to add fractions with different bottoms
 5. **Fractions Are Everywhere** — a recap, and where to spot fractions in real life
 
+## Style
+
+The visual design derives from the reference stylesheets in
+[`styles/reference/`](styles/reference/) — `normalize.css`, Skeleton
+(`skeleton.css`), and `custom.css` (dark `#242424` default, Raleway,
+`#33C3F0` accent, the blue navbar, the light/dark toggle switch — tap the
+switch in the header to flip Emery to light mode). `theme.js` documents
+which token comes from which rule. [`styles/site.css`](styles/site.css)
+explains why `custom.css` isn't imported wholesale (its bare `label`/`input`
+rules would hide interactive widgets) and scopes the pieces used.
+
 ## Requirements
 
 node.js

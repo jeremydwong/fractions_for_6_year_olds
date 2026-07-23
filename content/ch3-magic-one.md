@@ -2,22 +2,24 @@
 
 Time for the magic trick, Emery! This is my favourite part.
 
-We have a problem: sometimes pieces are different kinds, and we can't add them. We need a way to **change the kind** of a fraction... *without changing how much it actually is.*
+We have a problem: sometimes pieces are different kinds, and we can't add them. We need a trick, one that works all the time, to **change the kind** of a fraction... *without changing how much it actually is.*
 
-Here's the secret. Remember how `5` was secretly `5/1`? Well, there's another weird way to write a number. Look:
+Here's the secret. Remember how `5` was secretly `5/1`? Well, there's another fun trick with the number `1`. Look:
 
-- `2/2` means "cut into 2 pieces, take 2 of them." You took **all** the pieces! That's **1 whole**.
-- `3/3` means "cut into 3, take all 3." Again — that's **1 whole**!
+- `2/2` means "cut into 2 pieces, take 2 of them." You took **all** the pieces! That's just **1**.
+- `3/3` means "cut into 3, take all 3." Again — that's **1** again.
 - `4/4`, `5/5`, `10/10`... if the top and bottom are the **same**, it always equals **1**.
 
-These are **weirdly-written ones**! They're all just sneaky costumes for the number `1`.
+These are (Espen and I gave them a name) **weirdly-written ones**! we'd say 'Woah' or 'Wwo' when we were learning fractions. They're all just sneaky costumes for the number `1`.
 
-Now, the magic. What happens when you multiply something by `1`? **Nothing changes!** 3 × 1 = 3. A million × 1 = a million. Multiplying by 1 is totally safe.
+Now, the magic. What happens when you multiply something by `1`? That's something you love to do, it's almost a joke. **Nothing changes to the other number**. So 3 × 1 = 3. A million × 1 = a million. Multiplying by 1 is safe and it doesn't change anything.
 
-So if we multiply a fraction by a weirdly-written `1` (like `2/2` or `3/3`), the *amount* stays exactly the same — but the **pieces get re-cut** into a new kind!
+But we can also use this trick with a pencil-and-paper to see how many pieces there are if they were divided up. The idea is we multiply by a `1` (like `2/2` or `3/3`) and, while the *amount* stays exactly the same, it's easy for us to see how the pieces get **re-cut** into new kinds of fractions! 
 
 :::callout color=purple
 Watch below. Pick a fraction, then pick a magic `1`. The pizza on the right is the same as the pizza on the left — same amount coloured in! — it's just been cut into more pieces. We changed the kind, not the amount.
+
+Aside: you do this all the time for simple fractions. it's easy for you to see that `1/2`, in terms of quarters, is `2/4`. You can just see it: split each piece into two. This trick of multiplying by weirdly-written-ones is just the pencil-and-paper way of doing the same thing. 
 :::end
 
 # outro

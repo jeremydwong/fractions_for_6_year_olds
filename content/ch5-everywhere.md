@@ -2,7 +2,7 @@
 
 Wow, Emery — look how much you learned! Let's remember the big ideas, and then let's spot fractions hiding all around you.
 
-Here's everything in one breath:
+Here are five things that I hope we got from this little practice:
 
 - A **fraction** is part of a whole, cut into **fair, equal** pieces. Bottom = how many pieces; top = how many you take.
 - Every plain number is **already a fraction** over 1 (`5` is `5/1`).
@@ -28,7 +28,7 @@ I'm so proud of you for playing all the way through. Mathematics isn't about bei
 
 Whenever you cut something up to share it, you're doing fractions. Whenever you say "half" or "quarter," you're speaking fraction language. You've got this. 💛
 
-— love, Daddy
+— love, Dad
 
 :::takehome color=gold
 :::major
